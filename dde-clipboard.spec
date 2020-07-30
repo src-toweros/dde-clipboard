@@ -1,6 +1,3 @@
-# Run tests in check section
-# disable for bootstrapping
-
 %bcond_with check
 
 %global with_debug 1
@@ -50,5 +47,5 @@ popd
 %{_datadir}/%{name}/translations/
 
 %changelog
-* Wed Jun 10 2020 uoser <uoser@uniontech.com> - 5.0.0.3
-- Update to 5.0.0.3
+* Thu Jul 30 2020 openEuler Buildteam <buildteam@openeuler.org> - 5.0.0.3-1
+- Package init
