@@ -7,7 +7,7 @@
 
 Name:           dde-clipboard
 Version:        5.0.0.3
-Release:        1
+Release:        2
 Summary:        Qt platform theme integration plugins for DDE
 License:        GPLv3+
 URL:            http://shuttle.corp.deepin.com/cache/repos/eagle/release-candidate/RERFNS4wLjAuNjU3NQ/pool/main/d/dde-clipboard/
@@ -15,6 +15,7 @@ Source0:        %{name}_%{version}.orig.tar.xz
 
 BuildRequires:  qt5-qtbase-devel
 BuildRequires:  qt5-linguist
+BuildRequires:  dtkcore-devel
 BuildRequires:  dtkwidget-devel
 BuildRequires:  dtkwidget
 BuildRequires:  libgio-qt
@@ -47,5 +48,8 @@ popd
 %{_datadir}/%{name}/translations/
 
 %changelog
+* Fri Aug 28 2020 chenbo pan <panchenbo@uniontech.com> - 5.0.0.3-2
+- fix compile fail
+
 * Thu Jul 30 2020 openEuler Buildteam <buildteam@openeuler.org> - 5.0.0.3-1
 - Package init
