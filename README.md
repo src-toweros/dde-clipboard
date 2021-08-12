@@ -9,41 +9,9 @@
 
 #### 安装教程
 
-1. [下载](https://openeuler.org/zh/download/)openEuler ISO镜像并安装系统
-
-   ```
-   https://openeuler.org/zh/download/
-   ```
-
-2. 更新软件源
-
-   ```
-   sudo dnf update
-   ```
-
-3. 安装DDE
-
-   ```
-   sudo dnf install dde
-   ```
-
-4. 设置以图形界面的方式启动
-
-   ```
-   sudo systemctl set-default graphical.target
-   ```
-
-5. 重启
-
-   ```
-   sudo reboot
-   ```
-
-6. 在重启完成后，使用安装过程中创建的用户或openeuler用户登陆桌面
-
-   ```
-   dde桌面无法使用root账号登陆 dde内置了openeuler用户，此用户的密码为openeuler
-   ```
+```
+dnf install dde-cliboard
+```
 
 #### 使用说明
 
@@ -51,6 +19,8 @@
 2. 双击剪贴板内的某一区块，会快速复制当前内容， 且当前区块会被移动到剪贴板顶部。
 3. 选择目标位置粘贴。
 4. 鼠标移入剪贴板的某一区块，单击上方的**X**，删除当前内容；单击顶部的**全部清除**，清空剪贴板。
+
+![image-readme](./readme.png)
 
 
 
