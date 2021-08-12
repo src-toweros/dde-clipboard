@@ -19,7 +19,7 @@ dnf install dde-cliboard
 3. Select the destination to paste.
 4. Move the mouse to a certain area of the clipboard, click the upper **X** to delete the current content; click **Clear All** at the top to empty the clipboard.
 
-![image-20210812163615904](/home/wpeng/.config/Typora/typora-user-images/image-20210812163615904.png)
+![image-readme](./readme.png)
 
 #### Contribution
 

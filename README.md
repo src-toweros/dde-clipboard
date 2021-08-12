@@ -20,7 +20,7 @@ dnf install dde-cliboard
 3. 选择目标位置粘贴。
 4. 鼠标移入剪贴板的某一区块，单击上方的**X**，删除当前内容；单击顶部的**全部清除**，清空剪贴板。
 
-![image-20210812163545128](/home/wpeng/.config/Typora/typora-user-images/image-20210812163545128.png)
+![image-readme](./readme.png)
 
 
 
