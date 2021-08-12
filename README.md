@@ -1,7 +1,7 @@
 # dde-clipboard
 
 #### 介绍
-剪贴板展示当前用户登录系统后复制和剪切的所有文本、图片和文件。使用剪贴板可以快速复制其中的某项内容。注销或关机后，剪贴板会自动清空。
+dde clipboard
 
 #### 软件架构
 软件架构说明
@@ -9,50 +9,15 @@
 
 #### 安装教程
 
-1. [下载](https://openeuler.org/zh/download/)openEuler ISO镜像并安装系统
-
-   ```
-   https://openeuler.org/zh/download/
-   ```
-
-2. 更新软件源
-
-   ```
-   sudo dnf update
-   ```
-
-3. 安装DDE
-
-   ```
-   sudo dnf install dde
-   ```
-
-4. 设置以图形界面的方式启动
-
-   ```
-   sudo systemctl set-default graphical.target
-   ```
-
-5. 重启
-
-   ```
-   sudo reboot
-   ```
-
-6. 在重启完成后，使用安装过程中创建的用户或openeuler用户登陆桌面
-
-   ```
-   dde桌面无法使用root账号登陆 dde内置了openeuler用户，此用户的密码为openeuler
-   ```
+1.  xxxx
+2.  xxxx
+3.  xxxx
 
 #### 使用说明
 
-1. 使用快捷键 **Ctrl** + **Alt** + **V** 唤出剪贴板。
-2. 双击剪贴板内的某一区块，会快速复制当前内容， 且当前区块会被移动到剪贴板顶部。
-3. 选择目标位置粘贴。
-4. 鼠标移入剪贴板的某一区块，单击上方的**X**，删除当前内容；单击顶部的**全部清除**，清空剪贴板。
-
-
+1.  xxxx
+2.  xxxx
+3.  xxxx
 
 #### 参与贡献
 
